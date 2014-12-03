@@ -899,14 +899,10 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 	margin-bottom: 2px;
 }
 
-.dropper .work-badge-view {
-	-webkit-animation: slide-up 1s;
-/* 	display: none; */
-}
-
 .dropper:hover .work-badge-view {
 	display: block;
 	-webkit-animation: slide-down 0.3s;
+	-moz-animation: slide-down 0.3s;
 }
 /* .nav-item-bg:hover {
 	-webkit-animation: fade-in-out 1s;
@@ -921,7 +917,8 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 	from { height: 0px; }
 	to { height: 70px; }
 }
-@-webkit-keyframes slide-up {
-	from { height: 70px; }
-	to { height: 0px; }
+
+@-moz-keyframes slide-down {
+	from { height: 0px; }
+	to { height: 70px; }
 }
