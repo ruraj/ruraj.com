@@ -38,7 +38,8 @@ body {
 #total-wrapper
 {
         width:100%;
-		min-width:960px;
+		
+        min-width:960px;
 		background:#fff;
 }
 
@@ -713,7 +714,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockq
  a img { border: 0; }
  a { text-decoration: none; }
  body { font-family: 'Open Sans', Helvetica, sans-serif; background:#242424; }
- .container { margin: 0 auto; width: 960px; }
+ .container { margin: 0 auto; /* width: 960px; */ }
  #header-wrap, #banner-wrap, #nav-wrap, #main-wrap, #footer-wrap, #total-wrapper { width:100%; min-width:960px; background:#fff; }
  div.paragraph a, h2 a, .blog-comments-bottom a { color: #757575; border-bottom:1px solid #bdbdbd; }
  p a, h2 a, .blog-comments-bottom a { color: #757575; border-bottom:1px solid #bdbdbd; }
@@ -853,3 +854,21 @@ div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
 
 
+.round-frame {
+	height: 128px;
+	width: 128px;
+	overflow: hidden;
+	border: 0px;
+	border-radius: 64px;
+	margin: 5px;
+}
+
+.round-frame > img {
+	width: 100%;
+}
+
+.name {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
