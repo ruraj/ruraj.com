@@ -741,7 +741,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockq
  #header-right .phone-number .wsite-text a {}
  #header-right .phone-number .wsite-text a:hover {}
  #header-right .wsite-social { vertical-align: middle; margin: 2px 0 0 10px; display: inline-block; color: white;}
- .wsite-social-item { width: 28px; height: 30px; margin: 1px 0 0 4px; float: left;}
+ .wsite-social-item { /* width: 28px; */ /* height: 30px; */ /* margin: 1px 0 0 4px; */ /* float: left; */}
  .wsite-social-rss { background: url(/editor/uploads/4/3/6/9/43690735/custom_themes/267738835648444176/files/social-icons.png?343019) no-repeat -130px 0px; }
  .wsite-social-rss:hover { background-position: -130px -30px; }
  .wsite-social-rss:active { background-position: -130px -60px; }
@@ -781,9 +781,9 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockq
  .header-align-outer { /* display: table; */ #position: relative; /* overflow: hidden; */ /* height:300px; */ /* padding-bottom:44px; */ }
  .header-align-mid { #position: absolute; #top: 50%; display: table-cell; vertical-align: middle; }
  .header-align-inner { #position: relative; #top: -50%; }
- #nav-wrap .nav-container { float:right; position:relative; left:-50%; text-align:left; margin-top:10px; z-index:2; }
- #nav-wrap .nav-container ul{ list-style:none; position:relative; left:50%; z-index:2; }
- #nav-wrap .nav-container li{float:left;position:relative;}
+ #nav-wrap .nav-container { /* float:right; */ /* position:relative; */ /* left:-50%; */ /* text-align:left; */ /* margin-top:10px; */ /* z-index:2; */ }
+ #nav-wrap .nav-container ul{ /* list-style:none; */ /* position:relative; */ /* left:50%; */ /* z-index:2; */ }
+ #nav-wrap .nav-container li{/* float:left; *//* position:relative; */}
  #nav-wrap .nav-container a{ text-decoration:none; font:600 16px 'Josefin Sans', sans-serif; text-transform:uppercase; margin:10px 15px; float:left; color:#666; letter-spacing:2px; padding:1px 2px; text-align:center; white-space:nowrap; border-bottom:1px solid #fff; }
  #nav-wrap .nav-container a:hover{border-bottom:1px dashed #666;}
  #nav-wrap .nav-container li#active a {border-bottom:1px solid #888;}
@@ -873,3 +873,20 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 	text-align: center;
 	color: white;
 }
+
+.nav-item-bg {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	opacity: 0.2;
+}
+
+/* .nav-item-bg:hover {
+	-webkit-animation: fade-in-out 1s;
+}
+
+@-webkit-keyframes fade-in-out {
+    0% {opacity: 0.2;}
+    50% {opacity: 0.8;}
+    100% {opacity: 0.2;}
+} */
