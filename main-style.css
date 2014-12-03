@@ -165,6 +165,7 @@ p {
 	width: 28px;
 	height: 30px;
 	margin: 1px 0 0 4px;
+	color: white;
 }
 
 .wsite-social-rss {
@@ -713,7 +714,7 @@ h2.blog-title a, .blog-post .blog-header h2.blog-title a { border:none;}
 ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { /* margin: 0; */ /* padding: 0; */ }
  ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { /* margin: 0; */ /* padding: 0; */ }
  a img { border: 0; }
- a { text-decoration: none; }
+ a { /* text-decoration: none; */ }
  body { /* font-family: 'Open Sans', Helvetica, sans-serif; */ /* background:#242424; */ }
  .container { /* margin: 0 auto; */ /* width: 960px; */ }
  #header-wrap, #banner-wrap, #nav-wrap, #main-wrap, #footer-wrap, #total-wrapper { /* width:100%; */ /* min-width:960px; */ /* background:#fff; */ }
@@ -784,7 +785,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockq
  #nav-wrap .nav-container { /* float:right; */ /* position:relative; */ /* left:-50%; */ /* text-align:left; */ /* margin-top:10px; */ /* z-index:2; */ }
  #nav-wrap .nav-container ul{ /* list-style:none; */ /* position:relative; */ /* left:50%; */ /* z-index:2; */ }
  #nav-wrap .nav-container li{/* float:left; *//* position:relative; */}
- #nav-wrap .nav-container a{ text-decoration:none; font:600 16px 'Josefin Sans', sans-serif; text-transform:uppercase; margin:10px 15px; float:left; color:#666; letter-spacing:2px; padding:1px 2px; text-align:center; white-space:nowrap; border-bottom:1px solid #fff; }
+ #nav-wrap .nav-container a{ /* text-decoration:none; */ /* font:600 16px 'Josefin Sans', sans-serif; */ /* text-transform:uppercase; */ /* margin:10px 15px; */ /* float:left; */ /* color:#666; */ /* letter-spacing:2px; */ /* padding:1px 2px; */ /* text-align:center; */ /* white-space:nowrap; */ /* border-bottom:1px solid #fff; */ }
  #nav-wrap .nav-container a:hover{border-bottom:1px dashed #666;}
  #nav-wrap .nav-container li#active a {border-bottom:1px solid #888;}
  #nav-wrap .nav-container a:active{padding:2px 2px 0px;}
