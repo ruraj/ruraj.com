@@ -881,6 +881,33 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 	opacity: 0.2;
 }
 
+.work-badge-view {
+	position: absolute;
+	height: 70px;
+	width: 120px;
+	top: 32px;
+	left: -20px;
+	padding: 5px;
+	border: 1px #ccc solid;
+	background-color: rgba(100,100,100,0.5);
+	text-align: center;
+	overflow: hidden;
+	display: none;
+}
+
+.work-badge-view > img {
+	margin-bottom: 2px;
+}
+
+.dropper .work-badge-view {
+	-webkit-animation: slide-up 1s;
+/* 	display: none; */
+}
+
+.dropper:hover .work-badge-view {
+	display: block;
+	-webkit-animation: slide-down 0.3s;
+}
 /* .nav-item-bg:hover {
 	-webkit-animation: fade-in-out 1s;
 }
@@ -889,4 +916,12 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
     0% {opacity: 0.2;}
     50% {opacity: 0.8;}
     100% {opacity: 0.2;}
-} */
+}*/
+@-webkit-keyframes slide-down {
+	from { height: 0px; }
+	to { height: 70px; }
+}
+@-webkit-keyframes slide-up {
+	from { height: 70px; }
+	to { height: 0px; }
+}
